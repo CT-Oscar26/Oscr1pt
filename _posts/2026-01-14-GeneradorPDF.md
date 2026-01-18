@@ -3,6 +3,10 @@ title: GeneradorPDF
 date: 2026-01-14 22-57-00 -0400
 categories: [Desarollo, Python ]
 tags: [post]     # TAG names should always be lowercase
+image:
+  path: /assets/img/HeaderPDF.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: PDF
 ---
 
 # Generador de PDF con Python
@@ -31,12 +35,12 @@ Primero crearemos una clase llamada PDF, la cual heredará de FPDF. En esta clas
 
 En estas funciones definimos los atributos que tendrán los encabezados, pies de página, textos y títulos, como la fuente, el tamaño, los bordes, etc.
 
-![clase PDF](/assets/imagenes/generador_pdf/PDF.png)
+![clase PDF](/assets/img/generador_pdf/PDF.png)
 
 
 Luego de tener esta clase que define los estilos del documento, pasamos a la función encargada de crear el PDF. Aquí asignamos los atributos generales, como el título del documento, el número de páginas, y utilizamos un ciclo para ir generándolas una por una.
 
-![clase crear PDF](/assets/imagenes/generador_pdf/CrearPDF.png)
+![clase crear PDF](/assets/img/generador_pdf/CrearPDF.png)
 
 Para finalizar, creamos la función main(), donde se construye toda la parte visual del proyecto utilizando la librería Streamlit.
 Aquí definimos los inputs (entradas de datos) para que el usuario pueda ingresar la información que llevará el PDF.

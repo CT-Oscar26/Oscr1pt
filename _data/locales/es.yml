@@ -1,0 +1,8 @@
+tabs:
+  home: Inicio
+  categories: Categorías
+  tags: Etiquetas
+  archives: Archivo
+  about: Acerca de
+
+  date_format: "%d/%m/%Y"
