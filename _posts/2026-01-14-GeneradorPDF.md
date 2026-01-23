@@ -1,5 +1,5 @@
 ---
-title: GeneradorPDF
+title: Generador de PDF en Python
 date: 2026-01-14 22-57-00 -0400
 categories: [Desarollo, Python ]
 tags: [post]     # TAG names should always be lowercase
